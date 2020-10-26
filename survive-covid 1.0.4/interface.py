@@ -17,11 +17,11 @@ screen = pygame.display.set_mode((800,600))
 
 #Variável definindo o plano de fundo.
 
-background = pygame.image.load('Imagens/background.png')
+background = pygame.image.load('survive-covid 1.0.4/Imagens/background.png')
 
-interface = pygame.image.load('Imagens/interface.png')
+interface = pygame.image.load('survive-covid 1.0.4/Imagens/interface.png')
 
-gameover = pygame.image.load('Imagens/gameover.png')
+gameover = pygame.image.load('survive-covid 1.0.4/Imagens/gameover.png')
 
 #Objeto da biblioteca time, que conta os segundos que se passaram desde o inicio do aplicativo.
 
@@ -31,7 +31,7 @@ pygame.display.set_caption("Survive Covid")
 
 #Ícone do aplicativo.
 
-icon = pygame.image.load('Imagens/icon.png')
+icon = pygame.image.load('survive-covid 1.0.4/Imagens/icon.png')
 pygame.display.set_icon(icon)
 
 #Variáveis do jogador, que incluem sua imagem, localização e velocidade.
@@ -53,7 +53,7 @@ def start_interface():
                     start_game()
                 if event.key == pygame.K_e:
                     pygame.quit()
-        
+                            
         pygame.display.update()
 
 #Função que inicia a tela de game over
@@ -120,12 +120,12 @@ def start_game():
 
     #Ícone do aplicativo.
 
-    icon = pygame.image.load('Imagens/icon.png')
+    icon = pygame.image.load('survive-covid 1.0.4/Imagens/icon.png')
     pygame.display.set_icon(icon)
 
     #Variáveis do jogador, que incluem sua imagem, localização e velocidade.
 
-    playerImg = pygame.image.load('Imagens/carrinho.png')
+    playerImg = pygame.image.load('survive-covid 1.0.4/Imagens/carrinho.png')
     playerImg = pygame.transform.scale(playerImg, (50, 50))
     playerX = 400
     playerY = 480
@@ -133,7 +133,7 @@ def start_game():
 
     #Variáveis do item Covid, que incluem sua imagem, localização e velocidade.
 
-    covidImg = pygame.image.load('Imagens/covid.png')
+    covidImg = pygame.image.load('survive-covid 1.0.4/Imagens/covid.png')
     covidImg = pygame.transform.scale(covidImg, (50, 50))
     covidX = random.randint(0, 700)
     covidY = -15000
@@ -141,7 +141,7 @@ def start_game():
 
     #Variáveis do item Feijão, que incluem sua imagem, localização e velocidade.
 
-    feijaoImg = pygame.image.load('Imagens/feijao.png')
+    feijaoImg = pygame.image.load('survive-covid 1.0.4/Imagens/feijao.png')
     feijaoImg = pygame.transform.scale(feijaoImg, (50, 50))
     feijaoX = random.randint(0, 700)
     feijaoY = -60
@@ -149,7 +149,7 @@ def start_game():
 
     #Variáveis do item Arroz, que incluem sua imagem, localização e velocidade.
 
-    arrozImg = pygame.image.load('Imagens/arroz.png')
+    arrozImg = pygame.image.load('survive-covid 1.0.4/Imagens/arroz.png')
     arrozImg = pygame.transform.scale(arrozImg, (50, 50))
     arrozX = random.randint(0, 700)
     arrozY = -3000
@@ -157,18 +157,18 @@ def start_game():
 
     #Variáveis do item Gel, que incluem sua imagem, localização e velocidade.
 
-    gelImg = pygame.image.load('Imagens/gel.png')
+    gelImg = pygame.image.load('survive-covid 1.0.4/Imagens/gel.png')
     gelImg = pygame.transform.scale(gelImg, (50, 50))
     gelX = random.randint(0, 700)
     gelY = -8000
     gelY_change = 2.5
 
-    mixer.music.load('Sons/ambiente1.mp3')
+    mixer.music.load('survive-covid 1.0.4/Sons/ambiente1.mp3')
     mixer.music.play()
 
-    coleta = pygame.mixer.Sound('Sons/wav/bleep.wav')
-    virus = pygame.mixer.Sound('Sons/wav/derrota1.wav')
-    derrotaMenu = pygame.mixer.Sound('Sons/wav/derrota2.wav')
+    coleta = pygame.mixer.Sound('survive-covid 1.0.4/Sons/wav/bleep.wav')
+    virus = pygame.mixer.Sound('survive-covid 1.0.4/Sons/wav/derrota1.wav')
+    derrotaMenu = pygame.mixer.Sound('survive-covid 1.0.4/Sons/wav/derrota2.wav')
 
 
     #Função que adiciona a pontução no aplicativo.

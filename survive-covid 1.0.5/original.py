@@ -16,7 +16,7 @@ screen = pygame.display.set_mode((800,600))
 
 #Variável definindo o plano de fundo.
 
-background = pygame.image.load('Imagens/background.png')
+background = pygame.image.load('survive-covid 1.0.5/Imagens/background.png')
 
 #Objeto da biblioteca time, que conta os segundos que se passaram desde o inicio do aplicativo.
 
@@ -58,12 +58,12 @@ pygame.display.set_caption("Survive Covid")
 
 #Ícone do aplicativo.
 
-icon = pygame.image.load('Imagens/icon.png')
+icon = pygame.image.load('survive-covid 1.0.5/Imagens/icon.png')
 pygame.display.set_icon(icon)
 
 #Variáveis do jogador, que incluem sua imagem, localização e velocidade.
 
-playerImg = pygame.image.load('Imagens/carrinho.png')
+playerImg = pygame.image.load('survive-covid 1.0.5/Imagens/carrinho.png')
 playerImg = pygame.transform.scale(playerImg, (50, 50))
 playerX = 400
 playerY = 480
@@ -71,7 +71,7 @@ playerX_change = 0
 
 #Variáveis do item Covid, que incluem sua imagem, localização e velocidade.
 
-covidImg = pygame.image.load('Imagens/covid.png')
+covidImg = pygame.image.load('survive-covid 1.0.5/Imagens/covid.png')
 covidImg = pygame.transform.scale(covidImg, (50, 50))
 covidX = random.randint(0, 700)
 covidY = -15000
@@ -79,7 +79,7 @@ covidY_change = 2.5
 
 #Variáveis do item Feijão, que incluem sua imagem, localização e velocidade.
 
-feijaoImg = pygame.image.load('Imagens/feijao.png')
+feijaoImg = pygame.image.load('survive-covid 1.0.5/Imagens/feijao.png')
 feijaoImg = pygame.transform.scale(feijaoImg, (50, 50))
 feijaoX = random.randint(0, 700)
 feijaoY = -60
@@ -87,7 +87,7 @@ feijaoY_change = 1.5
 
 #Variáveis do item Arroz, que incluem sua imagem, localização e velocidade.
 
-arrozImg = pygame.image.load('Imagens/arroz.png')
+arrozImg = pygame.image.load('survive-covid 1.0.5/Imagens/arroz.png')
 arrozImg = pygame.transform.scale(arrozImg, (50, 50))
 arrozX = random.randint(0, 700)
 arrozY = -3000
@@ -95,7 +95,7 @@ arrozY_change = 2
 
 #Variáveis do item Gel, que incluem sua imagem, localização e velocidade.
 
-gelImg = pygame.image.load('Imagens/gel.png')
+gelImg = pygame.image.load('survive-covid 1.0.5/Imagens/gel.png')
 gelImg = pygame.transform.scale(gelImg, (50, 50))
 gelX = random.randint(0, 700)
 gelY = -8000
