@@ -1,4 +1,4 @@
-# -*- coding: cp1252 -*-
+# coding: iso-8859-1 -*-
 
 #Bibliotecas que estão sendo importadas.
 
@@ -182,8 +182,7 @@ def isCollisionGel(playerX, playerY, gelX, gelY):
 
 
 #Loop para iniciar o aplicativo.
-running = True
-while running:
+while True:
 
     #Define a cor do fundo.
 
@@ -200,7 +199,7 @@ while running:
         #Espera o evento quit, e então fecha o jogo
 
         if event.type == pygame.QUIT:
-            running = False
+            pygame.quit()
 
         #Espera o evento keydown, que é quando um tecla é pressionada.
 
