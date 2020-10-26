@@ -9,7 +9,7 @@ pygame.init()
 
 screen = pygame.display.set_mode((800,600))
 
-background = pygame.image.load('Imagens/background.png')
+background = pygame.image.load('survive-covid 1.0.3/Imagens/background.png')
 
 current_time = 0
 

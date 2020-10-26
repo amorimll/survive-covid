@@ -7,24 +7,24 @@ class Player(pygame.sprite.Sprite):
         self.spritesLeft = []
         self.is_animatingRight = False
         self.is_animatingLeft = False
-        self.spritesRight.append(pygame.image.load("Imagens/player/PR.png"))
-        self.spritesRight.append(pygame.image.load("Imagens/player/R2.png"))
-        self.spritesRight.append(pygame.image.load("Imagens/player/R3.png"))
-        self.spritesRight.append(pygame.image.load("Imagens/player/R4.png"))
-        self.spritesRight.append(pygame.image.load("Imagens/player/R5.png"))
-        self.spritesRight.append(pygame.image.load("Imagens/player/R6.png"))
-        self.spritesRight.append(pygame.image.load("Imagens/player/R7.png"))
-        self.spritesRight.append(pygame.image.load("Imagens/player/R8.png"))
+        self.spritesRight.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/PR.png"))
+        self.spritesRight.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/R2.png"))
+        self.spritesRight.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/R3.png"))
+        self.spritesRight.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/R4.png"))
+        self.spritesRight.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/R5.png"))
+        self.spritesRight.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/R6.png"))
+        self.spritesRight.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/R7.png"))
+        self.spritesRight.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/R8.png"))
 
-        self.spritesLeft.append(pygame.image.load("Imagens/player/PL.png"))
-        self.spritesLeft.append(pygame.image.load("Imagens/player/L1.png"))
-        self.spritesLeft.append(pygame.image.load("Imagens/player/L2.png"))
-        self.spritesLeft.append(pygame.image.load("Imagens/player/L3.png"))
-        self.spritesLeft.append(pygame.image.load("Imagens/player/L4.png"))
-        self.spritesLeft.append(pygame.image.load("Imagens/player/L5.png"))
-        self.spritesLeft.append(pygame.image.load("Imagens/player/L6.png"))
-        self.spritesLeft.append(pygame.image.load("Imagens/player/L7.png"))
-        self.spritesLeft.append(pygame.image.load("Imagens/player/L8.png"))
+        self.spritesLeft.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/PL.png"))
+        self.spritesLeft.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/L1.png"))
+        self.spritesLeft.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/L2.png"))
+        self.spritesLeft.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/L3.png"))
+        self.spritesLeft.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/L4.png"))
+        self.spritesLeft.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/L5.png"))
+        self.spritesLeft.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/L6.png"))
+        self.spritesLeft.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/L7.png"))
+        self.spritesLeft.append(pygame.image.load("survive-covid 1.0.5/Imagens/player/L8.png"))
 
         self.current_sprite = 0
         self.image = self.spritesRight[self.current_sprite]
